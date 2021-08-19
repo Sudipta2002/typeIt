@@ -1,0 +1,14 @@
+.Footer-link {
+    display: flex;
+    justify-content: center;
+    background: #1d2020;
+    margin: 0;
+    z-index: 99;
+}
+
+.Linked-IN-link {
+    font-size: 32px;
+    color: rgb(201, 233, 86);
+    text-align: center;
+    margin: 10px;
+}

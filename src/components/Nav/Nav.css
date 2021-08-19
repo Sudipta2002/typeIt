@@ -1,0 +1,37 @@
+.nav-container {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    background: #1d2020;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right {
+    margin-right: 40px;
+}
+
+.nav-nameit-link {
+    font-size: 32px;
+    color: rgb(243, 192, 192);
+    font-weight: 800;
+    height: 60px;
+}
+
+.app-logo {
+    margin-left: 20px;
+    height: 85px;
+}
+
+.nav-container {
+    color: white;
+    font-family: "Bangers", cursive;
+    font-size: 60px;
+    letter-spacing: 3px;
+    margin: 0 10px;
+}
