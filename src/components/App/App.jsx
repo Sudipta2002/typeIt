@@ -108,7 +108,7 @@ class App extends React.Component{  //class based component
          * 5. Irrespective of the case, characters, words and wpm can be updated
          */
         const character=inputValue.length;
-        const words=inputValue.split(" ").length-1;
+        const words=inputValue.split(" ").filter((element)=>{return element.length!==0}).length;
         const index = character-1;
         if(index<0){
             this.setState({
